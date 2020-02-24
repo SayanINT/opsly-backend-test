@@ -1,6 +1,6 @@
 package com.example.opslytest.model
 
 data class CombinedMainModel(
-        val twitter: List<Twitter>,
-        val facebook: List<Facebook>,
-        val instagram: List<Instagram>)
+        val twitter: List<String>,
+        val facebook: List<String>,
+        val instagram: List<String>)
